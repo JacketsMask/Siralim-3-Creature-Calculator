@@ -8,7 +8,7 @@ The application requires a SQLite database containing two tables. The first is a
 *Sample output for the application*
 
 ## Usage:
-Download the repository and ensure you can build the project. You may need to make conversions (listed below under build notes) if you're not using Visual Studio 2019. Once conversions are made, you should run the application once and verify that output looks like the sample output above. In order to modify the SQLite database containing the list of available creatures, I recommend using a free tool such as [DB Browser for SQLite](https://sqlitebrowser.org/). After opening the file in the solution directory, you can modify the AvailableMonsters table as seen below. Make sure you rebuild the application after changing the .db file so that the up-to-date version is copied to the build directory.
+Either download the release .zip file, or the full repository and ensure you can build the project. You may need to make conversions (listed below under build notes) if you're not using Visual Studio 2019. Once conversions are made, you should run the application once and verify that output looks like the sample output above. In order to modify the SQLite database containing the list of available creatures, I recommend using a free tool such as [DB Browser for SQLite](https://sqlitebrowser.org/). After opening the file in the solution directory, you can modify the AvailableMonsters table as seen below. Make sure you rebuild the application after changing the .db file so that the up-to-date version is copied to the build directory.
 
 ![DB Modification Example](sample/dbBrowser.png)  
 *Editing the AvailableMonsters table with DB Browser for SQLite*
